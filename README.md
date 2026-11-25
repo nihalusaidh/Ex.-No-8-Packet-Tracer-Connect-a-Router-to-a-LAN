@@ -1,5 +1,5 @@
 # Ex. No: 8   Packet Tracer: Connect a Router to a LAN
-# Date: ___________
+# Date: _____25/11/2026______
 ________________________________________<br>
 # Objective
 Configure and verify router LAN/WAN interfaces in Cisco Packet Tracer and test end-to-end connectivity.<br>
@@ -112,10 +112,21 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on R1 and R2 (after configuration)<br>
+<img width="941" height="1021" alt="Screenshot 2026-11-25 181105" src="https://github.com/user-attachments/assets/2e7ca462-27cd-4e0c-a551-3107bf458393" />
+<img width="1905" height="1066" alt="Screenshot 2026-11-25 181246" src="https://github.com/user-attachments/assets/c831d73b-90e3-4f49-96d7-fed398ef3750" />
+
 •	show ip route on R1 and R2<br>
+<img width="941" height="1021" alt="Screenshot 2026-11-25 181105" src="https://github.com/user-attachments/assets/2e7ca462-27cd-4e0c-a551-3107bf458393" />
+<img width="1905" height="1066" alt="Screenshot 2026-11-25 181246" src="https://github.com/user-attachments/assets/580b8011-329f-4d05-bc30-a25ce2f35ce6" />
+
 •	Successful ping PC1 → PC4; R2 → PC2<br>
+<img width="1906" height="1067" alt="Screenshot 2026-11-25 181328" src="https://github.com/user-attachments/assets/2956b6bd-3143-43df-9f46-ecfa095c38bd" />
+<img width="1906" height="1068" alt="Screenshot 2026-11-25 181524" src="https://github.com/user-attachments/assets/6a3364e5-3248-4132-a121-d857876407a4" />
+
 •	Interface up messages after no shutdown on each link <br>
 ________________________________________<br>
+<img width="1907" height="1065" alt="Screenshot 2026-11-25 181548" src="https://github.com/user-attachments/assets/b0b9bbab-0f56-4c3e-bb75-d59f067cdf2b" />
+
 # Result
 R1 and R2 were configured with correct IPv4 addresses and interface descriptions, links were brought up, routing tables showed connected networks, and end-to-end connectivity between PCs across the WAN link was verified using pings. The configurations were saved to NVRAM for persistence.<br>
 
